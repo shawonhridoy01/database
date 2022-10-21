@@ -1,0 +1,115 @@
+database name portfolio
+
+table name navbar:
+
+	id -> primary key
+	nav_logo -> varchar -> 255
+
+table name banner:
+	
+	id -> primary key
+	sub_title -> varchar -> 255
+	color_title -> varchar -> 255
+	dynamic_title -> varchar -> 255 
+	banner_text -> varchar -> 255
+
+
+table name service: 
+	id -> primary key 
+	service_heading -> varchar -> 255
+	heading_text -> varchar -> 255
+	service_icon -> varchar -> 255
+	service_title -> varhcar -> 255
+	service_text -> varchar -> 255 
+
+table name about:
+	
+	id -> primary_key 
+	about_heading -> varchar -> 255 
+	about_text  -> varchar -> 255 
+	about_name -> varchar -> 255 
+	about_designation -> varchar -> 255
+	about_description -> text -> 
+	about_number -> varchar -> 20
+	about_email -> varchar -> 255 
+	about_image -> varchar -> 255 
+
+table name skill :
+	id -> primary key 
+	skill_title -> varchar -> 255
+	skill_descripton -> text 
+	skill_area -> varchar -> 255
+	skill_percent -> varchar -> 255 
+	
+
+table name project :
+	id -> primary key 
+	project_title -> varchar -> 255 
+	project_description -> varchar -> 255 
+	project_image -> varchar -> 255 
+	hover_title -> varchar -> 255 
+	hover_description -> varchar -> 255
+	project_link -> varchar -> 255 
+
+
+table name counter: 
+
+	
+	id -> primary key
+	complete_project_title -> varchar -> 255
+	project_number -> varchar -> 255
+	line_of_code -> varchar -> 255
+	number_of_code -> varchar -> 255
+	coffee_cup_title -> varchar -> 255
+	coffee_cup_number -> varhcar -> 255
+	happy_clients_title -> varchar -> 255
+	happy_clients_number -> varchar -> 255
+
+
+table name testimonail 
+
+	id -> primary_key 
+	name -> varchar -> 255
+	designation -> varchar -> 255
+	image -> varchar -> 255 
+	description -> varchar -> 255
+	
+
+table name blog:
+
+	id -> primary_key 
+	blog title -> varchar -> 255
+	blog description -> text 
+	category_id -> integer 
+	created_at -> timestamp
+
+table name category:
+	id -> primary key 
+	category_name -> varchar -> 255
+
+
+table name contact :
+	id -> primary key 
+	first_name -> varchar -> 255
+	last_name -> varchar -> 255
+	email -> varchar -> 255 
+	phone -> varchar -> 255 
+	message -> varchar -> 255
+
+table name address_details:
+	id -> primary key 
+	address -> varchar -> 255
+	phone -> varchar -> 255
+	email-> varchar -> 255
+
+table name footer:
+	id -> primary_key -> 
+	footer_img -> varchar -> 255
+	facebook_link -> varchar -> 255
+	twitter_link -> varchar -> 255
+	google_link -> varchar -> 255
+	skype_link -> varchar -> 255
+	instagram -> varchar -> 255
+	copyright_text -> varchar -> 255
+
+	
